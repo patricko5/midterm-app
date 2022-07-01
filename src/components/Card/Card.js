@@ -10,7 +10,9 @@ const Card = ({image, name, gpa, onchange}) => {
         <h3>{name}</h3>
 
         <h3>{gpa}</h3>
-        <button onChange={onchange}>Grade</button>
+        <button onChange={
+           onchange
+        }>Grade</button>
       </div>
     </>
   );
