@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import StudentList from "./components/StudentList";
+import StudentList from "./components/StudentList/StudentList";
 
 const App = () => {
   return (

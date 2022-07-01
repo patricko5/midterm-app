@@ -1,0 +1,8 @@
+.studentcontainer {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 20px;
+    margin-left: 20%;
+    margin-top: 2em;
+}
+

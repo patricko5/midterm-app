@@ -7,15 +7,18 @@
   border-color: black;
 } */
 .container {
-  display: flex;
+  /* display: flex; */
   text-align: center;
   justify-content: center;
   border: solid black 1px;
   display: block;
-  width: 10px;
-  margin: 10px;
-  padding-left: 300px;
+  margin: 1em;
+  /* padding-left: 300px;
   padding-right: 300px;
+  padding-bottom: 20px; */
+  min-width: 500px;
+  padding: 2em; 
+  padding-left: 2em;
 }
 .pictureCard {
   margin: 0;
