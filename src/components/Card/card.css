@@ -1,27 +1,26 @@
-/* .container {
-  text-align: center;
-  color: rgb(0, 0, 0);
-  background-color: aqua;
-  margin: 20px;
-  border-style: solid;
-  border-color: black;
-} */
+
 .container {
   /* display: flex; */
   text-align: center;
   justify-content: center;
   border: solid black 1px;
   display: block;
-  margin: 1em;
+  margin: 0.5em;
   /* padding-left: 300px;
   padding-right: 300px;
   padding-bottom: 20px; */
   min-width: 500px;
-  padding: 2em; 
+  padding: 2em;
   padding-left: 2em;
 }
 .pictureCard {
   margin: 0;
   width: "150px";
   height: "150px";
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    min-width: 300px;
+  }
 }

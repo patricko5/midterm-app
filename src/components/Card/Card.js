@@ -1,6 +1,6 @@
 import React from "react";
 import "./card.css";
-const Card = ({image, name, gpa}) => {
+const Card = ({image, name, gpa, onchange}) => {
   //   console.log(`${name}`);
   //style={{width: "500px"}}
   return (
@@ -10,7 +10,7 @@ const Card = ({image, name, gpa}) => {
         <h3>{name}</h3>
 
         <h3>{gpa}</h3>
-        <button>Grade</button>
+        <button onChange={onchange}>Grade</button>
       </div>
     </>
   );
